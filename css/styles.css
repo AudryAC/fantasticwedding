@@ -26,9 +26,25 @@
 }
 .margin-section{
     margin: var(--margin-sections);
+    
 }
 .bkg-sandLight{
     background: var(--color-sandLight);
+}
+.mainAnimationOne{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.mainAnimationTwo{
+    animation: fadeInAnimation ease 10s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.mainAnimationThree{
+    animation: fadeInAnimation ease 15s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 body{
     font-family: 'SourceSerifPro-Light';
@@ -100,7 +116,7 @@ h5{
     text-align: center;
     background-color: var(--color-blueMain);
 }
-.boxLocations button{
+.boxLocations .btnLocations{
     border: none;
     border-radius: 5px;
     background-color: var(--color-blueSecondary);
@@ -109,4 +125,54 @@ h5{
 }
 .boxLocations p{
     line-height: 50px;
+}
+.animationSections{
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: fadeInAnimation;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px), (max-width: 767.98px), (max-width: 991.98px){
+    h1{
+        font-size: 40px;
+    }
+    #home{
+        padding: 0 50px;
+    }
+    .margin-section{
+        margin: 0 50px!important;
+    }
+    header img{
+        display: none;
+    }
+    .info{
+        display: block!important;
+    }
+    h3{
+        font-size: 30px;
+    }
+    #ourPhotos{
+        height: fit-content!important;
+    }
+    .box-photo{
+        height: 80vh;
+        margin-bottom: 50px;
+    }
+    #principal{
+        height: fit-content!important;
+    }
+    #locations{
+        margin-top: 150px;
+        padding: 50px!important;
+    }
+}
+/* Animations */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }

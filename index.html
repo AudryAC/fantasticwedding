@@ -17,14 +17,14 @@
                 <div class="row">
                     <div class="col-md-4 p-0">
                         <div>
-                            <img class="w-100" src="./img/leftFlowersB.jpg" alt="">
+                            <img class="w-100 mainAnimationOne" src="./img/leftFlowersB.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-4">
                     </div>
                     <div class="col-md-4 p-0">
                         <div>
-                            <img class="w-100" src="./img/rightFlowersB.jpg" alt="">
+                            <img class="w-100 mainAnimationOne" src="./img/rightFlowersB.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -32,27 +32,27 @@
         </nav>
     </header>
     <main>
-        <section class="vh-100">
+        <section id="home" class="vh-100">
             <div class="container-fluid h-100">
                 <div class="row h-100">
                     <div class="col-md-12 h-100 d-flex align-items-center justify-content-center">
                         <div class="">
                             <div>
                                 <div class="d-flex justify-content-center align-items-center">
-                                    <h1>ricardo & marina</h1>
+                                    <h1 class="mainAnimationOne">ricardo & marina</h1>
                                 </div>
                                 <br>
-                                <h5 class="text-center">Bienvenidos a nuestra historia</h5>
+                                <h5 class="text-center mainAnimationTwo">BIENVENIDOS A NUESTRA HISTORIA</h5>
                                 <br>
                             </div>
-                            <div class="d-flex justify-content-center">
-                                <div class="border-end border-2 border-secondary text-center">
-                                    <h3 class="px-5">MARZO</h3>
-                                    <h3 class="px-5">23, 2024</h3>
+                            <div class="info d-flex justify-content-center">
+                                <div class=" text-center">
+                                    <h3 class="px-5 mainAnimationThree">MARZO</h3>
+                                    <h3 class="px-5 mainAnimationThree">23, 2024</h3>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="px-5">SAN MATEO</h3>
-                                    <h3 class="px-5">EDO. MEX.</h3>
+                                    <h3 class="px-5 mainAnimationThree">SAN MATEO</h3>
+                                    <h3 class="px-5 mainAnimationThree">EDO. MEX.</h3>
                                 </div>
                             </div>
                         </div>
@@ -65,18 +65,18 @@
                 <img src="./img/leaves.svg" class="w-100">
             </div>
         </section>
-        <section id="ourPhotos" class="margin-section" style="height: calc(100vh - 278px);">
+        <section id="ourPhotos" class="margin-section animationSections" style="height: calc(100vh - 278px);">
             <div class="container-fluid h-100">
                 <div class="row h-100">
-                    <div class="col-md-4 h-100">
+                    <div class="col-12 col-sm-4 col-md-4 h-100">
                         <div id="box-photo1" class="box-photo">
                         </div>
                     </div>
-                    <div class="col-md-4 h-100">
+                    <div class="col-12 col-sm-4 col-md-4 h-100">
                         <div id="box-photo2" class="box-photo">
                         </div>
                     </div>
-                    <div class="col-md-4 h-100">
+                    <div class="col-12 col-sm-4 col-md-4 h-100">
                         <div id="box-photo3" class="box-photo">
                         </div>
                     </div>
@@ -88,10 +88,10 @@
                 <img src="./img/leaves.svg" class="w-100">
             </div>
         </section>
-        <section id="principal" class="vh-100 margin-section">
+        <section id="principal" class="vh-100 margin-section animationSections">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-12 col-sm-12 col-md-12">
                         <h2 class="text-center">Queridos amigos y familiares</h2>
                         <p class="text-center">Es un placer para nosotros Ricardo y Marina, anunciar con gran alegría que hemos decidido unir nuestras vidas en  matrimonio. Este día tan especial se acerca, y queremos compartir la felicidad y la emoción con ustedes.
                         </p>
@@ -100,17 +100,17 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-5">
+                    <div class="col-12 col-sm-12 col-md-5">
                         <div class="mainBoxCouple">
                             <div id="boxBride" class="boxCouple m-3">
                                 <img src="img/borderFlowers.png" alt="" style="width: 100%; position: relative; bottom: -125px;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-sm-12 col-md-2 d-flex justify-content-center align-items-center">
                         <h2>&</h2>
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-12 col-sm-12 col-md-5">
                         <div class="mainBoxCouple">
                             <div id="boxGroom" class="boxCouple m-3">
                                 <img src="img/borderFlowers.png" alt="" style="width: 100%; position: relative; bottom: -125px;">
@@ -120,43 +120,57 @@
                 </div>
             </div>
         </section>
-        <section id="locations" class="bkg-sandLight">
+        <section id="locations" class="bkg-sandLight animationSections">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-4">
                         <div class="boxLocations">
                             <h4>La Recepción</h4>
                             <p>3:00 PM – 3:30 PM</p>
                             <p>Salón Yamila</p>
-                            <!-- <button type="button">Ubicación</button> -->
-                            <a href="https://www.google.com/maps/place/Sal%C3%B3n+Yamila/@19.2542033,-99.5383887,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-100.3834796!2d20.60136!4e1!1m6!1m2!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!2sSal%C3%B3n+Yamila!2m2!1d-99.535811!2d19.2542032!3m5!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!8m2!3d19.2542033!4d-99.5358138!16s%2Fg%2F11d_9drbvk?entry=ttu" type="button">Ubicación</a>
+                            <a class="btnLocations text-decoration-none" href="https://www.google.com/maps/place/Sal%C3%B3n+Yamila/@19.2542033,-99.5383887,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-100.3834796!2d20.60136!4e1!1m6!1m2!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!2sSal%C3%B3n+Yamila!2m2!1d-99.535811!2d19.2542032!3m5!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!8m2!3d19.2542033!4d-99.5358138!16s%2Fg%2F11d_9drbvk?entry=ttu" target="_blank">Ubicación</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-4">
                         <div class="boxLocations">
                             <h4>La Ceremonia</h4>
                             <p>2:00 PM – 2:40 PM</p>
-                            <p>Parroquia San Gaspar Tlahuelilpan</p>
-                                <a href="https://www.google.com/maps/place/Parroquia+San+Gaspar+Tlahuelilpan/@19.2429711,-99.5481699,15z/data=!4m14!1m7!3m6!1s0x85cd8b4b79c63483:0xc296ba886be49052!2sParroquia+San+Gaspar+Tlahuelilpan!8m2!3d19.2429711!4d-99.5481699!16s%2Fg%2F11b6q2k7md!3m5!1s0x85cd8b4b79c63483:0xc296ba886be49052!8m2!3d19.2429711!4d-99.5481699!16s%2Fg%2F11b6q2k7md?entry=ttu" type="button">Ubicación</a>
+                            <p>Parroquia San Gaspar</p>
+                            <a class="btnLocations text-decoration-none" href="https://www.google.com/maps/place/Parroquia+San+Gaspar+Tlahuelilpan/@19.2429711,-99.5481699,15z/data=!4m14!1m7!3m6!1s0x85cd8b4b79c63483:0xc296ba886be49052!2sParroquia+San+Gaspar+Tlahuelilpan!8m2!3d19.2429711!4d-99.5481699!16s%2Fg%2F11b6q2k7md!3m5!1s0x85cd8b4b79c63483:0xc296ba886be49052!8m2!3d19.2429711!4d-99.5481699!16s%2Fg%2F11b6q2k7md?entry=ttu" target="_blank">Ubicación</a>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-12 col-sm-12 col-md-4">
                         <div class="boxLocations">
                             <h4>El Salón</h4>
-                            <p>3:00 PM – 5:30 PM
-                               Salón Yamila</p>
-                            <button type="button">Ubicación</button>
+                            <p>3:00 PM – 5:30 PM</p>
+                            <p>Salón Yamila</p>
+                            <a class="btnLocations text-decoration-none" href="https://www.google.com/maps/place/Sal%C3%B3n+Yamila/@19.2542033,-99.5383887,17z/data=!3m1!4b1!4m20!1m13!4m12!1m4!2m2!1d-100.3834796!2d20.60136!4e1!1m6!1m2!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!2sSal%C3%B3n+Yamila!2m2!1d-99.535811!2d19.2542032!3m5!1s0x85cdf4cf1233b709:0xec7a5145f0f6cb0e!8m2!3d19.2542033!4d-99.5358138!16s%2Fg%2F11d_9drbvk?entry=ttu" target="_blank">Ubicación</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="recepcion">
-            
-        </section>
         <section id="vestimenta">
             
         </section>
+        <!-- <section id="collage">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-3 p-0">
+                        <img src="./img/imgThree.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-sm-12 col-md-3 p-0">
+                        <img src="./img/imgTwo.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-sm-12 col-md-3 p-0">
+                        <img src="./img/imgOne.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="col-sm-12 col-md-3 p-0">
+                        <img src="./img/imgFour.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </section> -->
     </main>
 </body>
 <script src="https://kit.fontawesome.com/9883a8832f.js" crossorigin="anonymous"></script> 
