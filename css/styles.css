@@ -93,19 +93,19 @@ h5{
     border-radius: 50%;
 }
 #boxGroom{
-    background-image: url(../img/groom.jpg);
+    background-image: url(../img/groom.jpeg);
 }
 #boxBride{
-    background-image: url(../img/bride.jpg);
+    background-image: url(../img/bride.jpeg);
 }
 #box-photo1{
     background-image: url(../img/foto1.jpg);
 }
 #box-photo2{
-    background-image: url(../img/together.jpeg);
+    background-image: url(../img/photo5.jpeg);
 }
 #box-photo3{
-    background-image: url(../img/foto3.jpg);
+    background-image: url(../img/photo4.jpeg);
 }
 #locations{
     padding: 30px 200px;
